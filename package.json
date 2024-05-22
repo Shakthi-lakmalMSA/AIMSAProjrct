@@ -1,23 +1,21 @@
 {
-  "name": "visioncrafter",
-  "version": "1.0.0",
-  "description": "A Node.js project deployed to Azure Web App",
-  "main": "index.js", 
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shakthi-lakmalMSA/AIMSAProjrct.git"
-  },
-  "author": "Shakthi-lakmalMSA", 
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shakthi-lakmalMSA/AIMSAProjrct/issues"
-  },
-  "homepage": "https://github.com/Shakthi-lakmalMSA/AIMSAProjrct#readme",
-  "dependencies": {
-    "express": "^4.17.1"
+  "build_and_deploy": {
+    "app_name": "visioncrafter",
+    "status": {
+      "build": "failed",
+      "duration": "9s",
+      "details": {
+        "setup_job": "2s",
+        "run_checkout": "0s",
+        "setup_node": "0s",
+        "npm_install_build_test": "3s",
+        "zip_artifact": "0s",
+        "upload_artifact": "0s",
+        "post_setup_node": "0s",
+        "post_run_checkout": "0s",
+        "complete_job": "0s"
+      }
+    },
+    "commit": "Update package.json · Shakthi-lakmalMSA/AIMSAProjrct@4dd6c76"
   }
 }
