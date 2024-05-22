@@ -2,7 +2,7 @@
   "name": "visioncrafter",
   "version": "1.0.0",
   "description": "A Node.js project deployed to Azure Web App",
-  "main": "index.js", // Changed from "index.html" to "index.js"
+  "main": "index.js", 
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Shakthi-lakmalMSA/AIMSAProjrct.git"
   },
-  "author": "Your Name", // Add your name or username here
+  "author": "Shakthi-lakmalMSA", 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Shakthi-lakmalMSA/AIMSAProjrct/issues"
