@@ -35,7 +35,7 @@ window.addEventListener("load",function(){
              console.log(file);
            
             //HTTP Post Request
-            var URL = "https://aitraining52-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/341436cd-7383-4cf7-a40a-6a5513e6f1e6/classify/iterations/Iteration1/image";
+            var URL = "https://aitraining52-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/341436cd-7383-4cf7-a40a-6a5513e6f1e6/classify/iterations/VisionCrafters/image";
             var xhr = new XMLHttpRequest();
             
             xhr.open('POST', URL, true);
