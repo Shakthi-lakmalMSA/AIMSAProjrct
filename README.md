@@ -6,7 +6,8 @@ VisionCrafters is an innovative project aimed at revolutionizing agriculture thr
 ## Key Features:
 - *Real-Time Detection*: Swift identification of diseases allows proactive intervention.
 - *User-Friendly Interface*: Easy image upload and instant results.
-- *Global Database*: Join our movement to build a comprehensive database of plant diseases.
 - *Technologies Used*: Azure Computer Vision, Azure Static Web App, Java, HTML, and GitHub.
 
-Link to Microsoft Student Ambassadors project Demo Deck presentation :
+Link to Microsoft Student Ambassadors project Demo Deck presentation : 
+https://stdntpartners-my.sharepoint.com/:p:/g/personal/shakthi_lakmal_studentambassadors_com/EV7Ymtt3oldKl2YN2tKyX1MBUhZnkChESMDgk6D8n0-3yw?e=jdMS4q
+
