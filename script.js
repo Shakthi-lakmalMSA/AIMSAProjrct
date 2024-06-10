@@ -33,13 +33,13 @@ window.addEventListener("load",function(){
          
              const file = document.getElementById('capture').files[0];
              console.log(file);
-           
+           //https://aitraining52-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/341436cd-7383-4cf7-a40a-6a5513e6f1e6/classify/iterations/VisionCrafters/image
             //HTTP Post Request
-            var URL = "https://aitraining52-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/341436cd-7383-4cf7-a40a-6a5513e6f1e6/classify/iterations/VisionCrafters/image";
+            var URL = "https://bagprintdetectionmodel-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/181d35af-3fec-49c7-aa7c-8c9140d76d63/classify/iterations/Iteration1/image";
             var xhr = new XMLHttpRequest();
-            
+            //fdee90ae8e8d4e05bfe8bb213ec7c9bd
             xhr.open('POST', URL, true);
-            xhr.setRequestHeader('Prediction-Key','fdee90ae8e8d4e05bfe8bb213ec7c9bd');
+            xhr.setRequestHeader('Prediction-Key','4b8826d6ee7d44aa8458efb48e2f3380');
             xhr.setRequestHeader('Content-Type','application/octet-stream')
        
             
