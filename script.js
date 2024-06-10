@@ -27,12 +27,24 @@ window.addEventListener("load", function() {
                     return b.probability - a.probability;
                 });
                 var highestPrediction = json.predictions[0];
+
+                // Clear the table before adding new prediction
                 var table = document.getElementById("myTable");
-                var row = table.insertRow(1);
+                table.innerHTML = "";
+
+                var row = table.insertRow(0);
                 var cell1 = row.insertCell(0);
                 var cell2 = row.insertCell(1);
                 cell1.innerHTML = highestPrediction['tagName'];
                 cell2.innerHTML = highestPrediction['probability'] * 100 + '%';
+
+                // Show the image
+                var img = document.createElement("img");
+                img.src = URL.createObjectURL(file);
+                img.onload = function() {
+                    URL.revokeObjectURL(this.src);
+                }
+                document.body.appendChild(img);
             }
         }
         xhr.send(file);
